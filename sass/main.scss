@@ -1,0 +1,54 @@
+// MAIN COLORS
+$red: red;
+$green: green;
+$white: #f9f9f9;
+
+// MAIN SIZES
+$font12: 12px;
+$font14: 14px;
+$font16: 16px;
+$font20: 20px;
+$font25: 25px;
+$font40: 40px;
+
+// MAIN BORDER RADIUS
+$border50: 50%;
+$border20: 20px;
+$border10: 10px;
+$border10: 10px;
+$border4: 4px;
+
+// MAIN LINE-HEIGHT
+$line_height_100: 100px;
+
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    #demo{
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+        height: 100px;
+        width: 100px;
+        background-color: $green;
+        border-radius: $border10;
+        font-size: $font25;
+        color: $white;
+        line-height: $line_height_100;
+        text-align: center;
+    }
+}
+
+
+
+
